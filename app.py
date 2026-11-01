@@ -30,7 +30,7 @@ MAX_FILE_MB = 5
 MAX_PDF_PAGES = 15
 MAX_AI_CHARS = 15000          # resume text sent to the AI is cut to this length
 MIN_TEXT_CHARS = 150          # less than this usually means a scanned/image resume
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-flash-latest"
 # Tried in order if the chosen model name is not found (model names change over time)
 FALLBACK_MODELS = ["gemini-3.6-flash", "gemini-2.5-flash"]
 AI_WEIGHT = 0.6               # final score = 60% AI review + 40% rule-based checks
